@@ -1,8 +1,9 @@
 import React from 'react';
 import {Button, Card, CardActions, CardContent, CardMedia, Typography} from "@mui/material";
+import {CarModal} from "modals/CarModal";
 
 interface props {
-    car: any
+    car: CarModal
 }
 export const Car: React.FC<props> = ({ car }) => {
     return (

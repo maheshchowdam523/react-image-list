@@ -1,4 +1,6 @@
-export const mockData = [{
+import {CarModal} from "modals/CarModal";
+
+export const mockData: CarModal[] = [{
     "MakeId": 440,
     "MakeName": "ASTON MARTIN",
     "VehicleTypeId": 2,
